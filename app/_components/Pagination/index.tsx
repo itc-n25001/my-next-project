@@ -28,7 +28,7 @@ export default function Pagination({
                                 {p}
                             </Link>
                         ) : (
-                            <span className={`${styles.item}${styles.current}`}>{p}</span>
+                            <span className={`${styles.item} ${styles.current}`}>{p}</span>
                         )}
                     </li>
                 ))}
